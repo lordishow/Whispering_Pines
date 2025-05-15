@@ -11,7 +11,7 @@ local old;
 old = hookmetamethod(game,"__namecall", newcclosure(function(self, ...) 
     local method = getnamecallmethod()
     if method == "FireServer" then 
-        if self.Name == "Anticheat" then 
+        if self.Name == "Anticheat" or self.Name == "BanSelf" then 
             print("Ruh roh raggy looksie likie the anticheat had a little oopsie UwU")
             return
         end
