@@ -229,6 +229,4 @@ local Collect_All_Items_Button = Items_Tab:CreateButton({
     end,
 })
 
-
-
 Rayfield:LoadConfiguration()
