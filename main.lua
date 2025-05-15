@@ -207,7 +207,7 @@ local Keybind = Movement_Tab:CreateKeybind({
 
 -- // ITEMS TAB // -- -- // ITEMS TAB // -- -- // ITEMS TAB // --
 
-local Items_Tab = Window:CreateTab("Movement", 4483362458) -- Title, Image
+local Items_Tab = Window:CreateTab("Items", 4483362458) -- Title, Image
 
 local Collect_All_Items_Button = Items_Tab:CreateButton({
     Name = "Collect Every Item",
